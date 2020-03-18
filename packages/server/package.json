@@ -1,0 +1,34 @@
+{
+    "name": "@pure/server",
+    "version": "1.0.0",
+    "main": "src/index.ts",
+    "scripts": {
+        "start": "nodemon"
+    },
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.6.4",
+        "@babel/node": "^7.6.3",
+        "@babel/plugin-proposal-optional-chaining": "^7.6.0",
+        "@babel/preset-env": "^7.6.3",
+        "@babel/preset-typescript": "^7.6.0",
+        "@types/express": "^4.17.3",
+        "@types/jasmine": "^3.4.4",
+        "@typescript-eslint/eslint-plugin": "^2.24.0",
+        "babel-loader": "^8.0.6",
+        "babel-plugin-module-resolver": "^3.2.0",
+        "eslint": "^6.8.0",
+        "eslint-config-airbnb-base": "^14.1.0",
+        "eslint-config-airbnb-typescript": "^7.2.0",
+        "eslint-config-prettier": "^6.10.0",
+        "eslint-plugin-import": "^2.20.1",
+        "eslint-plugin-prettier": "^3.1.2",
+        "nodemon": "^1.19.4",
+        "prettier": "^1.19.1",
+        "typescript": "^3.6.4"
+    },
+    "dependencies": {
+        "@pure/enums": "1.0.0",
+        "express": "^4.17.1"
+    }
+}
